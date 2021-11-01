@@ -18,16 +18,15 @@ const Intro = () => {
                     </h1>
                     <h3>
                     <Typewriter
+                    options={{
+                        strings: ['Developer', 'Freelancer', 'Designer'],
+                        autoStart: true,
+                        loop: true,
+                      }}
                     onInit={(typewriter)=> {
                         typewriter
-                        .typeString("Developer")
-                        .pauseFor(1000)
-                        .deleteAll()
-                        .typeString("Designer")
-                        .pauseFor(1000)
-                        .deleteAll()
-                        .typeString("Freelancer")
                         .start();
+
                     }}
                     />
                     </h3>
