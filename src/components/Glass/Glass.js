@@ -1,5 +1,5 @@
 import React from 'react'
-// import './glass.scss'
+import './glass.scss'
 
 const Glass = (props) => {
     return (
