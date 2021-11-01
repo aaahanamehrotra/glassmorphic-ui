@@ -35,7 +35,17 @@
       height: 90%;
       justify-content: center;
       color: #f3ecff;
+      opacity: 0.8;
       //   align-items: center;
+      h1 {
+        margin: 1rem;
+        font-size: 2rem;
+      }
+      h3 {
+        margin: 1rem;
+        font-size: 1.5rem;
+        font-weight: 300;
+      }
     }
   }
 }

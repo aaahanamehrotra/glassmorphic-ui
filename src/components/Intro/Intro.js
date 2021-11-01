@@ -14,7 +14,9 @@ const Intro = () => {
                 </div>
                 <div className="intro-right">
                     <h1>
-                        Name
+                        Aaahana
+                        <br></br>
+                        Mehrotra
                     </h1>
                     <h3>
                     <Typewriter
