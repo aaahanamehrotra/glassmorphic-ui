@@ -1,0 +1,29 @@
+div.nav {
+  position: sticky;
+  top: 0;
+  height: 10vh;
+  background-color: #1f1d36;
+  display: flex;
+  z-index: 120;
+  .left {
+    width: 50%;
+    font-size: 3rem;
+    color: #fffade;
+    padding-left: 1rem;
+  }
+  .right {
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    li {
+      font-size: 1.5rem;
+      color: #99ddcc;
+      a {
+        text-decoration: none;
+        color: #99ddcc;
+      }
+    }
+  }
+}

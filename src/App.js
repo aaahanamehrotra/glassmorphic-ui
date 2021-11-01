@@ -1,11 +1,12 @@
 import Hero from "./components/Hero/Hero";
 import './app.scss'
+import Navbar from "./components/Navbar/navbar";
 function App() {
   return (
     <>
-<h1>hello</h1>
-<Hero />
-</>
+    <Navbar />
+    <Hero />
+    </>
   );
 }
 
