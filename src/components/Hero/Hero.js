@@ -1,5 +1,5 @@
 import React from 'react'
-// import Glass from '../Glass/Glass'
+import Glass from '../Glass/Glass'
 import './hero.scss'
 
 const Hero = () => {
