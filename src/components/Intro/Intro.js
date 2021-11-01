@@ -2,7 +2,7 @@ import React from 'react'
 // import { init } from 'ityped'
 import './intro.scss'
 // import { useEffect, useRef } from 'react'
-// import Typewriter from "typewriter-effect";
+import Typewriter from "typewriter-effect";
 
 const Intro = () => {
     
@@ -17,7 +17,7 @@ const Intro = () => {
                         Name
                     </h1>
                     <h3>
-                    {/* <Typewriter
+                    <Typewriter
                     onInit={(typewriter)=> {
                         typewriter
                         .typeString("Developer")
@@ -29,7 +29,7 @@ const Intro = () => {
                         .typeString("Freelancer")
                         .start();
                     }}
-                    /> */}
+                    />
                     </h3>
                     
                 </div>
