@@ -6,8 +6,9 @@ const Hero = () => {
     return (
         <div className="hero-main">
             <div className="glasses">
+                test
                 {/* <h1> main</h1> */}
-                <Glass title={"title"} content={"lorem ipsum dolor sit amet... this is sample description"}/>
+                {/* <Glass title={"title"} content={"lorem ipsum dolor sit amet... this is sample description"}/> */}
                 {/* <Glass title={"title"} content={"lorem ipsum dolor sit amet... this is sample description"}/>
                 <Glass title={"title"} content={"lorem ipsum dolor sit amet... this is sample description"}/> */}
             </div>
