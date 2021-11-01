@@ -1,4 +1,4 @@
-// import Hero from "./components/Hero/Hero";
+import Hero from "./components/Hero/Hero";
 import './app.scss'
 // import Navbar from "./components/Navbar/Navbar";
 // import { BrowserRouter, Route, Link } from "react-router-dom";
@@ -9,8 +9,8 @@ function App() {
     {/* <BrowserRouter>
       <Route exact path='/' component={Home}></Route>
     </BrowserRouter> */}
+    <Hero />
   {/* <Navbar /> */}
-  app
     </div>
   );
 }
