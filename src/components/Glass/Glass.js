@@ -1,5 +1,5 @@
 import React from 'react'
-import './glass.scss'
+// import './glass.scss'
 
 const Glass = (props) => {
     return (
@@ -10,7 +10,7 @@ const Glass = (props) => {
             <div className="content">
                 {props.content}
             </div>
-            <a href="#">Read More</a>
+            <a href="http://google.com">Read More</a>
         </div>
     )
 }
