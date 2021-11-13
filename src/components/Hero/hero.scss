@@ -1,34 +1,17 @@
 .hero-main {
   height: 90vh;
   margin: 10vh;
-
   background-color: #1f1d36;
+  .heading {
+    padding: 10px;
+    color: #f3ecff;
+    text-align: center;
+  }
   .glasses {
     height: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-  }
-  .circle1 {
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(3.9px);
-    -webkit-backdrop-filter: blur(3.9px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    height: 20vh;
-    width: 20vh;
-    position: absolute;
-    left: 75vw;
-    top: 10vh;
-  }
-  .circle {
-    border-radius: 50%;
-    height: 20vh;
-    width: 20vh;
-    position: absolute;
-    left: 50vw;
-    top: 20vh;
   }
 }

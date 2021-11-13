@@ -1,6 +1,17 @@
 .intro {
   height: 90vh;
-  background-color: #1f1d36;
+  background-image: url(https://www.russh.com/wp-content/uploads/2020/07/NSW-DESTINATIONS-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 1s;
+  animation-name: bg-change;
+  animation-direction: alternate;
+  animation-duration: 60s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: linear;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,9 +45,7 @@
       flex-direction: column;
       height: 90%;
       justify-content: center;
-      color: #f3ecff;
-      opacity: 0.8;
-      //   align-items: center;
+      color: #1f1d36;
       h1 {
         margin: 1rem;
         font-size: 2rem;
@@ -44,8 +53,43 @@
       h3 {
         margin: 1rem;
         font-size: 1.5rem;
-        font-weight: 300;
       }
     }
+  }
+}
+
+@keyframes bg-change {
+  0% {
+    background-image: url(https://www.planetware.com/wpimages/2019/10/asia-best-places-to-visit-mount-fuji-japan.jpg);
+  }
+  10% {
+    background-image: url(https://img.traveltriangle.com/blog/wp-content/uploads/2016/07/limestone-rock-phang-nga-1-Beautiful-limestone-rock-in-the-ocean.jpg);
+  }
+  20% {
+    background-image: url(https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1171238184%2F0x0.jpg%3Ffit%3Dscale);
+  }
+  30% {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Gz19nLsUYRAgbqgThMfKMv-d9ESa0dk-5A&usqp=CAU);
+  }
+  40% {
+    background-image: url(https://numerologist.com/wp-content/uploads/2018/04/Ideal-Holiday.jpg);
+  }
+  50% {
+    background-image: url(https://www.exoticca.com/uk/magazine/wp-content/uploads/2019/10/expensive-destinations-800x360.jpg);
+  }
+  60% {
+    background-image: url(https://www.revv.co.in/blogs/wp-content/uploads/2020/03/places-to-visit-in-west-india.jpg);
+  }
+  70% {
+    background-image: url(https://media.easemytrip.com/media/Blog/India/636989731119059291/6369897311190592913NSNTC.jpg);
+  }
+  80% {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzsFi3Yb9SDVcLCUkCyuzjGHHaAmuL2GAxsQ&usqp=CAU);
+  }
+  90% {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFO-B0plI2Z7Tr-wXf2nl0hCSd84I9pUdfkw&usqp=CAU);
+  }
+  100% {
+    background-image: url(https://images.thrillophilia.com/image/upload/s--gptd7azP--/c_fill,f_auto,fl_strip_profile,h_775,q_auto,w_1600/v1/images/photos/000/012/900/original/1551428022_alleppeyPlaces_feature.png.jpg?1551428022);
   }
 }

@@ -5,7 +5,7 @@ const Navbar = (props) => {
     return (
         <div className="nav">
             <div className="left">
-                IAM
+            explorar món
             </div>
             <div className="right">
                 <li>

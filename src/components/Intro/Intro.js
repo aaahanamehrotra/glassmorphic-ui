@@ -1,7 +1,5 @@
 import React from 'react'
-// import { init } from 'ityped'
 import './intro.scss'
-// import { useEffect, useRef } from 'react'
 import Typewriter from "typewriter-effect";
 
 const Intro = () => {
@@ -10,26 +8,26 @@ const Intro = () => {
         <div className="intro">
             <div className="intro-glass">
                 <div className="intro-left">
-                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" alt=""/>
+                    <img src="./undraw_travel_booking_re_6umu.svg" alt=""/>
                 </div>
                 <div className="intro-right">
                     <h1>
-                        Aaahana
-                        <br></br>
-                        Mehrotra
+                        Plan your next trip NOW !!
                     </h1>
                     <h3>
+                        book
                     <Typewriter
                     options={{
-                        strings: ['Developer', 'Freelancer', 'Designer'],
+                        strings: ['Hotels', 'Flights', 'Trains', 'Rentals', 'and more...'],
                         autoStart: true,
                         loop: true,
                       }}
                     onInit={(typewriter)=> {
                         typewriter
                         .start();
-
                     }}
+
+                    style={{display: "inline"}}
                     />
                     </h3>
                     
