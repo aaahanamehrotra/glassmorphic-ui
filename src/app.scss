@@ -11,5 +11,6 @@ div.app {
 }
 body {
   background-color: #1f1d36;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }

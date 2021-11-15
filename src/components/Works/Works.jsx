@@ -71,7 +71,7 @@ const Works = () => {
             </div>
             {/* <ChevronLeftIcon className="arrow left" onClick={() => handleClick("left")}/>
             <ChevronRightIcon className="arrow right" onClick={() => handleClick("right")}/> */}
-            <div className="arrow left" onClick={() => handleClick("left")}>PREV <i class="fas fa-chevron-left"></i></div>
+            <div className="arrow left" onClick={() => handleClick("left")}>PREV<i class="fas fa-chevron-left"></i></div>
             <div className="arrow right" onClick={() => handleClick("right")}>NEXT<i class="fas fa-chevron-right"></i></div>
         </div>
     )
